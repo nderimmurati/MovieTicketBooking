@@ -35,8 +35,13 @@
         <div class="admin-section admin-section1 ">
             <ul>
                 <li><i class="fas fa-sliders-h"></i><a href="admin.php">Dashboard </a><i class="fas admin-dropdown fa-chevron-right"></i></li>
+<<<<<<< HEAD
                 <li><i class="fas fa-ticket-alt"></i><a href="">Rezervimet</a> <i class="fas admin-dropdown fa-chevron-right"></i></li>
                 <li class="admin-navigation-schedule"><i class="fas fa-calendar-alt"></i>Orari <i
+=======
+                <li><i class="fas fa-ticket-alt"></i><a href="">Bookings</a> <i class="fas admin-dropdown fa-chevron-right"></i></li>
+                <li class="admin-navigation-schedule"><i class="fas fa-calendar-alt"></i>Schedule <i
+>>>>>>> 56e28225efc6601222c72206dff1f01f20fc07ce
                         class="fas admin-dropdown fa-chevron-right"></i>
                 </li>
                 <ul class="admin-navigation-schedule-dropdwn hidden-div">
