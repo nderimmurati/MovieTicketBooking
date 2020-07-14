@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <title>Book <?php echo $row['movieTitle']; ?> Now</title>
+    <title>Book <?php echo $row['movieTitle']; ?>Tani</title>
     <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
-<body style="background-color:#6e5a11;">
+<body style="background-color:#4580bf;">
     <div class="booking-panel">
         <div class="booking-panel-section booking-panel-section1">
-            <h1>RESERVE YOUR TICKET</h1>
+            <h1>REZERVO TIKETEN TUAJ</h1>
         </div>
         <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
             <i class="fas fa-2x fa-times"></i>
@@ -80,7 +80,7 @@
                     </select>
 
                     <select name="date" required>
-                        <option value="" disabled selected>DATE</option>
+                        <option value="" disabled selected>Data</option>
                         <option value="12-3">July 12,2020</option>
                         <option value="13-3">July 13,2020</option>
                         <option value="14-3">July 14,2020</option>
@@ -89,7 +89,7 @@
                     </select>
 
                     <select name="hour" required>
-                        <option value="" disabled selected>TIME</option>
+                        <option value="" disabled selected>Koha</option>
                         <option value="09-00">09:00 AM</option>
                         <option value="12-00">12:00 AM</option>
                         <option value="15-00">03:00 PM</option>
@@ -98,11 +98,11 @@
                         <option value="24-00">12:00 PM</option>
                     </select>
 
-                    <input placeholder="First Name" type="text" name="fName" required>
+                    <input placeholder="Emri" type="text" name="fName" required>
 
-                    <input placeholder="Last Name" type="text" name="lName">
+                    <input placeholder="Mbiemri" type="text" name="lName">
 
-                    <input placeholder="Phone Number" type="text" name="pNumber" required>
+                    <input placeholder="Numri i telefonit" type="text" name="pNumber" required>
 
                     <button type="submit" value="submit" name="submit" class="form-btn">Rezervoni nje vend</button>
                     <?php

@@ -16,17 +16,17 @@
         $link = mysqli_connect("localhost", "root", "", "cinema_db");
 ?>
     <header></header>
-    <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=BUE&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps/place/Kalabria,+Pristina/@42.6406699,21.1321154,15z/data=!3m1!4b1!4m5!3m4!1s0x13549e8867f0daf9:0xbf5af60cc3bb87aa!8m2!3d42.6432421!4d21.1435284" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </div>
     <div class="contact-us-container">
         <div class="contact-us-section contact-us-section1">
             <h1>Kontakti</h1>
             <p>Na kontaktoni ketu </p>
             <form action="" method="POST">
-                <input placeholder="First Name" name="fName" required><br>
-                <input placeholder="Last Name" name="lName" ><br>
-                <input placeholder="E-mail Address" name="eMail" required><br>
-                <textarea placeholder="Enter your message !" name="feedback" rows="10" cols="30" required></textarea><br>
+                <input placeholder="Emri" name="fName" required><br>
+                <input placeholder="Mbiemri" name="lName" ><br>
+                <input placeholder="E-mail Adresa" name="eMail" required><br>
+                <textarea placeholder="Shenoni mesazhin tuaj !" name="feedback" rows="10" cols="30" required></textarea><br>
                 <button type="submit" name="submit" value="submit">Dergoni nje mesazh</button>
                 <?php
                     if(isset($_POST['submit'])){
@@ -48,12 +48,12 @@
         <div class="contact-us-section contact-us-section2">
             <h1>Adresa & Informata</h1>
             <h3>Numri i telefonit</h3>
-            <p><a href="tel:03850550555">038 50 550 555</a><br>
-                <a href="tel:38345255255">+383 45 255 255</a></p>
+            <p><a href="tel:03850550555">0038345289362</a><br>
+                <a href="tel:38345255255">+383 45 289 362</a></p>
             <h3>Adresa</h3>
             <p>Prishtine, Lagjja "Kalabria" , Prishtine 10000 </p>
             <h3>E-mail</h3>
-            <p><a href="mailto:movie-ticket-booking@ubt-uni.net">movie-ticket-booking@ubt-uni.net</a></p>
+            <p><a href="mailto:movie-ticket-booking@bqn.net">movie-ticket-booking@ubt-uni.net</a></p>
         </div>
     </div>
     <footer></footer>

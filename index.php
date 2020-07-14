@@ -14,7 +14,7 @@
 
 <body>
     <?php
-    $link = mysqli_connect("localhost", "root", "", "movie_db");
+    $link = mysqli_connect("localhost", "root", "", "cinema_db");
     $sql = "SELECT * FROM movieTable";
     ?>
     <header></header>
@@ -67,14 +67,14 @@
                     <i class="fas fa-4x fa-credit-card"></i>
                 </div>
                 <h2>2. Pagujeni per bileten tuaja</h2>
-                <p>zgjidhni filmin që dëshironi të shikoni</p>
+                <p>Rezervoni nje bilete per te shikuar filmin</p>
             </div>
             <div class="service-item">
                 <div class="service-item-icon">
                     <i class="fas fa-4x fa-theater-masks"></i>
                 </div>
                 <h2>3. Zgjidhni vendin tuaj & kënaquni duke shikuar</h2>
-                <p>zgjidhni filmin që dëshironi të shikoni</p>
+                <p>Rezervo ulesen per tuaj</p>
             </div>
             <div class="service-item"></div>
             <div class="service-item"></div>
@@ -86,63 +86,63 @@
         <div class="trailers-grid">
             <div class="trailers-grid-item">
                 <img src="img/poster1-badboysforlife.jpg" alt="">
-                <div class="trailer-item-info" data-video="Z1BCujX3pw8">
+                <div class="trailer-item-info" data-video="Fc8e1LrYOmY">
                     <h3>Bad Boys For Life</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster2-007.jpg" alt="">
-                <div class="trailer-item-info" data-video="OPEfsEaFv_c">
+                <div class="trailer-item-info" data-video="BIhNsAtPbPI">
                     <h3>007 - No Time To Die</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster3-jumanji.jpg" alt="">
-                <div class="trailer-item-info" data-video="cksYkEzUa7k">
+                <div class="trailer-item-info" data-video="rBxcF-r9Ibs">
                     <h3>Jumanji - The Next Level</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster4-extraction.jpg" alt="">
-                <div class="trailer-item-info" data-video="Ze5YA4mkzhI">
+                <div class="trailer-item-info" data-video="L6P3nI6VnlY">
                     <h3>Extraction</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster5-venom.jpg" alt="">
-                <div class="trailer-item-info" data-video="lbUAVTc7NTo">
+                <div class="trailer-item-info" data-video="u9Mv98Gr5pY">
                     <h3>Venom</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster6-endgame.jpg" alt="">
-                <div class="trailer-item-info" data-video="RyFlfN4dD14">
+                <div class="trailer-item-info" data-video="TcMBFSGVi1c">
                     <h3>Avengers Endgame</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster7-capone.jpg" alt="">
-                <div class="trailer-item-info" data-video="RyFlfN4dD14">
+                <div class="trailer-item-info" data-video="2J5OE16C_zY">
                     <h3>Al Capone</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
-                <img src="img/poster8-madmacfuryroad.jpg" alt="">
-                <div class="trailer-item-info" data-video="RyFlfN4dD14">
+                <img src="img/poster8-madmaxfuryroad.jpg" alt="">
+                <div class="trailer-item-info" data-video="hEJnMQG9ev8&t=34s">
                     <h3>Mad Max Fury Road</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
             </div>
             <div class="trailers-grid-item">
                 <img src="img/poster9-johnwick3.jpg" alt="">
-                <div class="trailer-item-info" data-video="RyFlfN4dD14">
+                <div class="trailer-item-info" data-video="pU8-7BX9uxs">
                     <h3>John Wick 3</h3>
                     <i class="far fa-3x fa-play-circle"></i>
                 </div>
